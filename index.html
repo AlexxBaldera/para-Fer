@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Como tulipanes…</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Audio con botón -->
+  <audio id="audio" src="musica.mp3" loop></audio>
+
+  <div class="fondo">
+    <div class="brillos"></div>
+
+    <div class="flores">
+      <img src="tulipan.png" class="tulipan" alt="Tulipán">
+      <img src="tulipan.png" class="tulipan retrasado" alt="Tulipán">
+      <img src="tulipan.png" class="tulipan" alt="Tulipán">
+    </div>
+
+    <div class="mensaje">
+      <p>Como los tulipanes…<br>
+      florecen sin pedir permiso,<br>
+      así florece en mí<br>
+      lo que siento por ti 🌷</p>
+
+      <p class="te-quiero">Te quiero Lesly 💗</p>
+      <span>— Alex</span>
+    </div>
+
+    <button onclick="document.getElementById('audio').play()" class="boton-musica">
